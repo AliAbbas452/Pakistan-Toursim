@@ -1,0 +1,404 @@
+/* ================= GENERAL ================= */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 22px;
+}
+
+.nav-link {
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+
+/* NAVBAR HOVER */
+
+.nav-link:hover {
+    color: #20c997 !important;
+
+    transform: translateY(-3px);
+}
+
+
+/* ================= HERO ================= */
+
+.hero-section {
+
+    height: 100vh;
+
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.50),
+        rgba(0, 0, 0, 0.50)
+    ),
+    url("https://images.unsplash.com/photo-1566837497312-7be4f534f7f5?auto=format&fit=crop&w=1600&q=80");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    color: white;
+}
+
+
+.hero-content {
+    max-width: 750px;
+}
+
+
+.hero-content h1 {
+
+    font-size: 55px;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+
+.hero-content p {
+
+    font-size: 20px;
+
+    margin-bottom: 30px;
+}
+
+
+/* ================= PAGE HEADER ================= */
+
+.page-header {
+
+    margin-top: 70px;
+
+    padding: 90px 20px;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.55),
+        rgba(0,0,0,0.55)
+    ),
+    url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80");
+
+    background-size: cover;
+
+    background-position: center;
+
+    color: white;
+
+    text-align: center;
+}
+
+
+.page-header h1 {
+
+    font-size: 45px;
+
+    font-weight: bold;
+}
+
+
+/* ================= CARD ================= */
+
+.tourism-card {
+
+    border: none;
+
+    overflow: hidden;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 5px 20px rgba(0,0,0,0.15);
+
+    transition: 0.4s;
+}
+
+
+/* CARD HOVER */
+
+.tourism-card:hover {
+
+    transform: translateY(-12px);
+
+    box-shadow:
+        0 15px 35px rgba(0,0,0,0.25);
+}
+
+
+/* ================= IMAGE ================= */
+
+.image-box {
+
+    overflow: hidden;
+
+    height: 250px;
+}
+
+
+.image-box img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    transition:
+        transform 0.6s ease;
+}
+
+
+/* IMAGE ZOOM */
+
+.tourism-card:hover .image-box img {
+
+    transform: scale(1.15);
+}
+
+
+/* ================= BUTTON ================= */
+
+.btn-success {
+
+    transition: 0.3s;
+}
+
+
+.btn-success:hover {
+
+    transform: scale(1.08);
+
+    box-shadow:
+        0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+/* ================= WHY SECTION ================= */
+
+.why-section {
+
+    background: #f3f7f4;
+}
+
+
+.feature-box {
+
+    background: white;
+
+    padding: 30px 20px;
+
+    border-radius: 12px;
+
+    height: 100%;
+
+    transition: 0.4s;
+}
+
+
+/* FEATURE HOVER */
+
+.feature-box:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,0.15);
+}
+
+
+.feature-icon {
+
+    font-size: 45px;
+
+    margin-bottom: 15px;
+}
+
+
+/* ================= PACKAGE ================= */
+
+.package-card {
+
+    background: white;
+
+    padding: 35px 25px;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 5px 20px rgba(0,0,0,0.12);
+
+    transition: 0.4s;
+}
+
+
+/* PACKAGE HOVER */
+
+.package-card:hover {
+
+    transform: translateY(-12px)
+               scale(1.02);
+
+    box-shadow:
+        0 15px 35px rgba(0,0,0,0.20);
+}
+
+
+.package-icon {
+
+    font-size: 50px;
+
+    margin-bottom: 15px;
+}
+
+
+.price {
+
+    color: #198754;
+
+    font-weight: bold;
+}
+
+
+/* ================= ABOUT IMAGE ================= */
+
+.about-image {
+
+    overflow: hidden;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 5px 20px rgba(0,0,0,0.15);
+}
+
+
+.about-image img {
+
+    width: 100%;
+
+    display: block;
+
+    transition:
+        transform 0.6s ease;
+}
+
+
+/* ABOUT IMAGE ZOOM */
+
+.about-image:hover img {
+
+    transform: scale(1.12);
+}
+
+
+/* ================= CONTACT ================= */
+
+.contact-box {
+
+    background: #f3f7f4;
+
+    padding: 35px;
+
+    border-radius: 15px;
+
+    transition: 0.4s;
+}
+
+
+.contact-box:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,0.15);
+}
+
+
+/* ================= FORM ================= */
+
+.form-control {
+
+    padding: 12px;
+
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+
+.form-control:focus {
+
+    border-color: #198754;
+
+    box-shadow:
+        0 0 8px rgba(25,135,84,0.25);
+}
+
+
+/* ================= FOOTER ================= */
+
+.footer {
+
+    background: #212529;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+
+    margin-top: 30px;
+}
+
+
+.footer p {
+
+    margin: 0;
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+    .hero-content h1 {
+
+        font-size: 38px;
+    }
+
+
+    .hero-content p {
+
+        font-size: 17px;
+    }
+
+
+    .page-header h1 {
+
+        font-size: 35px;
+    }
+
+
+    .image-box {
+
+        height: 220px;
+    }
+
+}

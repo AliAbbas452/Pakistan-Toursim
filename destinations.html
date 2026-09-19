@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pakistan Tourism | Destinations</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="index.html">
+            🇵🇰 Pakistan Tourism
+        </a>
+
+        <button class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active"
+                       href="destinations.html">
+
+                        Destinations
+
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="packages.html">
+                        Packages
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        About
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+<!-- ================= PAGE HEADER ================= -->
+
+<section class="page-header">
+
+    <div class="container text-center">
+
+        <h1>Explore Pakistan</h1>
+
+        <p>
+            Find your next beautiful destination.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= DESTINATIONS ================= -->
+
+<section class="container py-5">
+
+    <div class="row g-4">
+
+
+        <!-- Hunza -->
+
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card tourism-card">
+
+                <div class="image-box">
+
+                    <img
+                    src="https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?auto=format&fit=crop&w=900&q=80"
+                    alt="Hunza Valley">
+
+                </div>
+
+                <div class="card-body">
+
+                    <h4>Hunza Valley</h4>
+
+                    <p>
+                        Explore mountains, forts and
+                        Attabad Lake.
+                    </p>
+
+                    <button class="btn btn-success">
+                        Explore
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Skardu -->
+
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card tourism-card">
+
+                <div class="image-box">
+
+                    <img
+                    src="https://images.unsplash.com/photo-1627894483216-2138af692e32?auto=format&fit=crop&w=900&q=80"
+                    alt="Skardu">
+
+                </div>
+
+                <div class="card-body">
+
+                    <h4>Skardu</h4>
+
+                    <p>
+                        Visit lakes, deserts and
+                        beautiful mountain scenery.
+                    </p>
+
+                    <button class="btn btn-success">
+                        Explore
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Swat -->
+
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card tourism-card">
+
+                <div class="image-box">
+
+                    <img
+                    src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=80"
+                    alt="Swat Valley">
+
+                </div>
+
+                <div class="card-body">
+
+                    <h4>Swat Valley</h4>
+
+                    <p>
+                        Enjoy green mountains, rivers
+                        and peaceful scenery.
+                    </p>
+
+                    <button class="btn btn-success">
+                        Explore
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Lahore -->
+
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card tourism-card">
+
+                <div class="image-box">
+
+                    <img
+                    src="data:image/jpeg;base64,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"
+                    alt="Lahore">
+
+                </div>
+
+                <div class="card-body">
+
+                    <h4>Lahore</h4>
+
+                    <p>
+                        Explore Badshahi Mosque,
+                        Lahore Fort and culture.
+                    </p>
+
+                    <button class="btn btn-success">
+                        Explore
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Karachi -->
+
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card tourism-card">
+
+                <div class="image-box">
+
+                    <img
+                    src="https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=900&q=80"
+                    alt="Karachi">
+
+                </div>
+
+                <div class="card-body">
+
+                    <h4>Karachi</h4>
+
+                    <p>
+                        Enjoy beaches, food and
+                        historical attractions.
+                    </p>
+
+                    <button class="btn btn-success">
+                        Explore
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Islamabad -->
+
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card tourism-card">
+
+                <div class="image-box">
+
+                    <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-3AdRWmMGoESlbIMWLghzk0SGwFABt19xdymRdagXYg&s=10"
+                    alt="Islamabad">
+
+                </div>
+
+                <div class="card-body">
+
+                    <h4>Islamabad</h4>
+
+                    <p>
+                        Visit Faisal Mosque,
+                        Margalla Hills and more.
+                    </p>
+
+                    <button class="btn btn-success">
+                        Explore
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <p>
+        © 2026 Pakistan Tourism 🇵🇰
+    </p>
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
